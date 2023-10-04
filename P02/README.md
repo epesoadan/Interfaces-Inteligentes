@@ -25,6 +25,7 @@ Muestra en pantalla el vector con la posición de la esfera.
 
 ## Ejercicio 5
 Crea un script para la esfera que muestre en consola la distancia a la que están el cubo y el cilindro.
+![Pic](img/script5.png)
 
 ## Ejercicio 6
 Crea un script que alinee el cilindro y el cubo con la esfera, 5  unidades a derecha e izquierda respectivamente en el eje X. Prueba a cambiar a cambiar la coordenada x de la posición de la esfera en el Inspector de Objetos.
