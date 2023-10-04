@@ -29,10 +29,12 @@ Crea un script para la esfera que muestre en consola la distancia a la que está
 
 ## Ejercicio 6
 Crea un script que alinee el cilindro y el cubo con la esfera, 5  unidades a derecha e izquierda respectivamente en el eje X. Prueba a cambiar a cambiar la coordenada x de la posición de la esfera en el Inspector de Objetos.
+![Gif](img/script6.gif)
 
 ## Ejercicio 7
 Cambia el color del cilindro cuando el usuario pulse la tecla A, cambia el color del cubo cuando el usuario pulse la flecha arriba.
+![Gif](img/script7.gif)
 
 ## Ejercicio 8
 Agrega 5 esferas más en la escena. Crea un grupo de 2 , asígnales la misma etiqueta y a las restantes otra etiqueta diferente a ésta. Crea un vector con las distancias de cada una de las del segundo grupo al cubo. Sube en altura (aumenta la y) de la esfera más cercana. Cambiar color de la más lejana cuando el jugador pulsa la tecla espacio.
-##
+![Gif](img/script8.gif)
