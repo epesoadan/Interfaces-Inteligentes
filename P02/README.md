@@ -7,6 +7,7 @@ Crea un script asociado al cubo que inicialice un array a un conjunto de valores
 
 ## Ejercicio 2
 Crea una escena simple en la que ubiques un plano y sobre él un cubo, una esfera y un cilindro. Cada uno de los objetos debe estar en un color diferente. En la consola cada objeto debe mostrar su nombre.
+![Pic](img/script2.png)
 
 ## Ejercicio 3
 Crea un script asociado a la esfera con dos variables Vector3 públicas. Dale valor a cada componente de los vectores desde el inspector. Muestra en la consola:
