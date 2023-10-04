@@ -3,6 +3,7 @@ Eva Peso Adán (alu0101398037@ull.edu.es)
 # Scripts
 ## Ejercicio 1
 Crea un script asociado al cubo que inicialice un array a un conjunto de valores numéricos aleatorios entre 0 y 25. En cada frame se debe cambiar una posición aleatoria y mostrar en pantalla en la consola los que sean mayores que 15. Parametrizar el rango para poderlo cambiar desde el inspector.
+![Gif](img/Gif-p01.gif)
 
 ## Ejercicio 2
 Crea una escena simple en la que ubiques un plano y sobre él un cubo, una esfera y un cilindro. Cada uno de los objetos debe estar en un color diferente. En la consola cada objeto debe mostrar su nombre.
