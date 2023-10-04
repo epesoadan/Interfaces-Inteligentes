@@ -15,7 +15,9 @@ Crea un script asociado a la esfera con dos variables Vector3 públicas. Dale va
 * El ángulo que forman
 * La distancia entre ambos.
 * Un mensaje indicando qué vector está a una altura mayor.
+
 Muestra en el inspector cada uno de esos valores.
+![Gif](img/script3.gif)
 
 ## Ejercicio 4
 Muestra en pantalla el vector con la posición de la esfera.
