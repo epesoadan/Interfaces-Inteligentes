@@ -37,4 +37,6 @@ Cambia el color del cilindro cuando el usuario pulse la tecla A, cambia el color
 
 ## Ejercicio 8
 Agrega 5 esferas más en la escena. Crea un grupo de 2 , asígnales la misma etiqueta y a las restantes otra etiqueta diferente a ésta. Crea un vector con las distancias de cada una de las del segundo grupo al cubo. Sube en altura (aumenta la y) de la esfera más cercana. Cambiar color de la más lejana cuando el jugador pulsa la tecla espacio.
+
+(En el gif se ve del revés. El script está correcto.)
 ![Gif](img/script8.gif)
