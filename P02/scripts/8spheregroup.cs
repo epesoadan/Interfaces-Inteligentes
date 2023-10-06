@@ -12,33 +12,33 @@ public class spheregroup : MonoBehaviour
         GameObject cube = GameObject.FindWithTag("cube");
         spheres = GameObject.FindGameObjectsWithTag("sphere_group2");
         distances = new float[spheres.Length];
-        float largest_distance = float.NegativeInfinity;
-        int max_distance_index = 0;
+        float smallest_distance = float.PositiveInfinity;
+        int min_distance_index = 0;
         for (int i = 0; i < spheres.Length; i++) {
             distances[i] = Vector3.Distance(spheres[i].transform.position, cube.transform.position);
-            if (distances[i] > largest_distance) {
-                largest_distance = distances[i];
-                max_distance_index = i;
+            if (distances[i] < smallest_distance) {
+                smallest_distance = distances[i];
+                min_distance_index = i;
             }
         }
         
-        float new_y = spheres[max_distance_index].transform.position.y + 2;
-        spheres[max_distance_index].transform.position = new Vector3(spheres[max_distance_index].transform.position.x, new_y, spheres[max_distance_index].transform.position.z);
+        float new_y = spheres[min_distance_index].transform.position.y + 2;
+        spheres[min_distance_index].transform.position = new Vector3(spheres[min_distance_index].transform.position.x, new_y, spheres[min_distance_index].transform.position.z);
     }
 
     // Update is called once per frame
     void Update()
     { 
         if (Input.GetKeyDown(KeyCode.Space)) {
-            float smallest_distance = float.PositiveInfinity;
-            int min_distance_index = 0;
+            float largest_distance = float.NegativeInfinity;
+            int max_distance_index = 0;
             for (int i = 0; i < spheres.Length; i++) {
-                if (distances[i] < smallest_distance) {
-                    smallest_distance = distances[i];
-                    min_distance_index = i;
+                if (distances[i] > largest_distance) {
+                    largest_distance = distances[i];
+                    max_distance_index = i;
                 }
             }
-            spheres[min_distance_index].GetComponent<Renderer>().material.color = new Color(Random.Range (0f, 1f), Random.Range (0f, 1f), Random.Range (0f, 1f));
+            spheres[max_distance_index].GetComponent<Renderer>().material.color = new Color(Random.Range (0f, 1f), Random.Range (0f, 1f), Random.Range (0f, 1f));
         }
     }
 }
