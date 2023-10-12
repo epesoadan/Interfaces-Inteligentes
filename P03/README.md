@@ -51,3 +51,8 @@ Utilizar el eje “Horizontal” para girar el objetivo y que avance siempre en 
 Configura el cilindro como un objeto físico, cuando el cubo o la esfera colisionen con él se debe mostrar un mensaje en consola con la etiqueta del objeto que haya colisionado.
 
 ![Pic](img/ejercicio9.gif)
+
+## Ejercicio 10
+Configura el cubo como un objeto cinemático y la esfera como un objeto físico. Adapta los scripts del ejercicio 9 para obtener el mismo comportamiento.
+
+![Pic](img/ejercicio10.gif)
