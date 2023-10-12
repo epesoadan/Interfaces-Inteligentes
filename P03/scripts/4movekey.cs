@@ -20,9 +20,9 @@ public class movekey : MonoBehaviour
     void Update()
     {   
         Vector3 moveCube = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-        cube.transform.Translate(moveCube * speed, 0);
+        cube.transform.Translate(moveCube * speed);
 
         Vector3 moveSphere = new Vector3(Input.GetAxis("HorizontalSp"), 0, Input.GetAxis("VerticalSp"));
-        sphere.transform.Translate(moveSphere * speed, 0);   
+        sphere.transform.Translate(moveSphere * speed);   
     }
 }
