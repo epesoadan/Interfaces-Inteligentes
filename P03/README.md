@@ -41,3 +41,8 @@ Adapta el movimiento en el ejercicio 5 para que el cubo se mueva hacia la posici
 Adapta el movimiento en el ejercicio 6 de forma que el cubo gire hacia la esfera. Realiza pruebas cambiando la posición de la esfera mediante las teclas awsd.
 
 ![Pic](img/ejercicio7.gif)
+
+## Ejercicio 8
+Utilizar el eje “Horizontal” para girar el objetivo y que avance siempre en la dirección hacia adelante.
+
+![Pic](img/ejercicio8.gif)
