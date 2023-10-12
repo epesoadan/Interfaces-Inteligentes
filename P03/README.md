@@ -46,3 +46,8 @@ Adapta el movimiento en el ejercicio 6 de forma que el cubo gire hacia la esfera
 Utilizar el eje “Horizontal” para girar el objetivo y que avance siempre en la dirección hacia adelante.
 
 ![Pic](img/ejercicio8.gif)
+
+## Ejercicio 9
+Configura el cilindro como un objeto físico, cuando el cubo o la esfera colisionen con él se debe mostrar un mensaje en consola con la etiqueta del objeto que haya colisionado.
+
+![Pic](img/ejercicio9.gif)
