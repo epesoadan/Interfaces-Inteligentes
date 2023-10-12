@@ -31,3 +31,8 @@ Mueve el cubo con las teclas de flecha arriba-abajo, izquierda-derecha a la velo
 Adapta el movimiento en el ejercicio 4 para que sea proporcional al tiempo transcurrido durante la generación del frame.
 
 ![Pic](img/ejercicio5.gif)
+
+## Ejercicio 6
+Adapta el movimiento en el ejercicio 5 para que el cubo se mueva hacia la posición de la esfera. Debes considerar, que el avance no debe estar influenciado por cuánto de lejos o cerca estén los dos objetos.
+
+![Pic](img/ejercicio6.gif)
