@@ -26,3 +26,8 @@ e. intercambiar movimiento relativo al sistema de referencia local y el mundial 
 Mueve el cubo con las teclas de flecha arriba-abajo, izquierda-derecha a la velocidad speed. Cada uno de estos ejes implican desplazamientos en el eje vertical y horizontal respectivamente. Mueve la esfera con las teclas w-s (movimiento vertical) a-d (movimiento horizontal).
 
 ![Pic](img/ejercicio4.gif)
+
+## Ejercicio 5
+Adapta el movimiento en el ejercicio 4 para que sea proporcional al tiempo transcurrido durante la generación del frame.
+
+![Pic](img/ejercicio5.gif)
