@@ -21,3 +21,8 @@ d. la posición del cubo tiene y>0 - Se queda fijo en el aire en la posición in
 e. intercambiar movimiento relativo al sistema de referencia local y el mundial - En este caso, no ocurre nada.
 
 ![Pic](img/ejercicio3.gif)
+
+## Ejercicio 4
+Mueve el cubo con las teclas de flecha arriba-abajo, izquierda-derecha a la velocidad speed. Cada uno de estos ejes implican desplazamientos en el eje vertical y horizontal respectivamente. Mueve la esfera con las teclas w-s (movimiento vertical) a-d (movimiento horizontal).
+
+![Pic](img/ejercicio4.gif)
