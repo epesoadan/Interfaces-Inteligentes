@@ -36,3 +36,8 @@ Adapta el movimiento en el ejercicio 4 para que sea proporcional al tiempo trans
 Adapta el movimiento en el ejercicio 5 para que el cubo se mueva hacia la posición de la esfera. Debes considerar, que el avance no debe estar influenciado por cuánto de lejos o cerca estén los dos objetos.
 
 ![Pic](img/ejercicio6.gif)
+
+## Ejercicio 7
+Adapta el movimiento en el ejercicio 6 de forma que el cubo gire hacia la esfera. Realiza pruebas cambiando la posición de la esfera mediante las teclas awsd.
+
+![Pic](img/ejercicio7.gif)
