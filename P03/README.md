@@ -14,7 +14,7 @@ Mapea la tecla H a la función disparo.
 
 Crea un script asociado al cubo que en cada iteración traslade al cubo una cantidad proporcional un vector que indica la dirección del movimiento: moveDirection que debe poder modificarse en el inspector.  La velocidad a la que se produce el movimiento también se especifica en el inspector, con la propiedad speed. Inicialmente la velocidad debe ser mayor que 1 y el cubo estar en una posición y=0. En el informe de la práctica comenta los resultados que obtienes en cada una de las siguientes situaciones:
 
-a. duplicas las coordenadas de la dirección del movimiento - Nada, ya que no afecta a la velocidad.
+a. duplicas las coordenadas de la dirección del movimiento - Nada, ya que no afecta a la velocidad (el vector está normalizado). Si no estuviera normalizado, afectaría a la velocidad.
 b. duplicas la velocidad manteniendo la dirección del movimiento - El cubo se mueve más rápido.
 c. la velocidad que usas es menor que 1 - El cubo se mueve más lento.
 d. la posición del cubo tiene y>0 - Se queda fijo en el aire en la posición indicada.
