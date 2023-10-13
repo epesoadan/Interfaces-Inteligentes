@@ -61,3 +61,41 @@ Configura el cubo como un objeto cinemático y la esfera como un objeto físico.
 Configura el cilindro como un objeto de tipo Trigger. Adapta los scripts de los ejercicios anteriores para obtener el mismo comportamiento.
 
 ![Pic](img/ejercicio11.gif)
+
+## Ejercicio 12
+
+Agrega un cilindro de un color diferente al que ya hay en la escena y configúralo como un objeto físico. Selecciona un conjunto de teclas que te permitan controlar su movimiento por la escena y prográmale un movimiento que permita dirigirlo hacia la esfera. Prueba diferentes configuraciones de la esfera física con masa 10 veces mayor que el cilindro, física con masa 10 veces menor que el cilindro, cinemática y trigger. También prueba la configuración del cilindro de forma que su fricción se duplique o no. Explica en el informe todos los resultados posibles.
+
+a. Esfera con 10 veces más masa que cilindro (ambos físicos)
+
+![Pic](img/ejercicio12a.gif)
+
+Al cilindro le cuesta mover la esfera.
+
+b. Cilindro con 10 veces más masa que esfera (ambos físicos)
+
+![Pic](img/ejercicio12b.gif)
+
+Ahora el cilindro lo tiene más fácil para tirar la esfera.
+
+c. Cinemática
+
+![Pic](img/ejercicio12c.gif)
+
+Ahora el cilindro no es movido por el motor de física.
+
+d. Trigger
+
+![Pic](img/ejercicio12d.gif)
+
+Ahora el cilindro no colisiona.
+
+e. Con fricción (0.6)
+
+![Pic](img/ejercicio12e.gif)
+
+f. Con fricción (1.2)
+
+![Pic](img/ejercicio12f.gif)
+
+Se puede ver que la fricción afecta al golpe que recibe la esfera, así como el movimiento del cilindro.
