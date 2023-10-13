@@ -20,9 +20,9 @@ public class movekey : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
-       // It's not kinematic, so the cube can't move
-       //moveCube = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-       //cube.transform.Translate(moveCube * speed * Time.deltaTime);
+       // Cube is kinematic, so we still use transform
+       Vector3 moveCube = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+       cube.transform.Translate(moveCube * (speed/2) * Time.deltaTime);
 
        moveSphere = new Vector3(Input.GetAxis("HorizontalSp"), 0, Input.GetAxis("VerticalSp"));
        //sphere.transform.Translate(moveSphere * speed * Time.deltaTime);
@@ -31,6 +31,6 @@ public class movekey : MonoBehaviour
     void FixedUpdate()
     {
         //cube.AddForce(moveCube * speed * Time.fixedDeltaTime);
-        sphere.AddForce(moveSphere * speed * Time.fixedDeltaTime);
+        sphere.AddForce(moveSphere * (speed * 2) * Time.fixedDeltaTime);
     }
 }
