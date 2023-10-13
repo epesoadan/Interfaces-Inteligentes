@@ -56,3 +56,8 @@ Configura el cilindro como un objeto físico, cuando el cubo o la esfera colisio
 Configura el cubo como un objeto cinemático y la esfera como un objeto físico. Adapta los scripts del ejercicio 9 para obtener el mismo comportamiento.
 
 ![Pic](img/ejercicio10.gif)
+
+## Ejercicio 11
+Configura el cilindro como un objeto de tipo Trigger. Adapta los scripts de los ejercicios anteriores para obtener el mismo comportamiento.
+
+![Pic](img/ejercicio11.gif)
