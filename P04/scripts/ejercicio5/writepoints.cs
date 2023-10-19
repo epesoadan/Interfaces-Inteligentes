@@ -24,7 +24,6 @@ public class writepoints : MonoBehaviour
 
     void UpdatePoints() 
     {
-        Debug.Log("ok");
-       point_text.text = "Points: " + notif.current_points; 
+        point_text.text = "Points: " + notif.current_points; 
     }
 }
