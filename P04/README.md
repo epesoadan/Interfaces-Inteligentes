@@ -19,3 +19,13 @@ Cuando el cubo se aproxima al cilindro, las esferas del grupo 1 cambian su color
 Implementar la mecánica de recoger esferas en la escena que actualicen la puntuación del jugador. Las esferas de tipo 1 suman 5 puntos y las esferas de tipo 2 suman 10. Mostrar la puntuación en la consola.
 
 ![Pic](img/ejercicio4.gif)
+
+## Ejercicio 5
+Partiendo del script anterior crea una interfaz que muestre la puntuación que va obteniendo el cubo.
+
+![Pic](img/ejercicio5.gif)
+
+## Ejercicio 6
+Genera una escena que incluya elementos que se ajusten a la escena del prototipo y alguna de las mecánicas anteriores.
+
+![Pic](img/ejercicio6.gif)
