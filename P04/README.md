@@ -9,3 +9,8 @@ A partir de la escena que has estado utilizando en las últimas prácticas, crea
 Adapta la escena anterior para que cuando el cubo colisiona con cualquier objeto que no sean esferas del grupo 1, las esferas en el grupo 1 se acercan al cilindro. Cuando el cubo toca cualquier esfera del grupo 1, las esferas del grupo 2 aumentan de tamaño.
 
 ![Pic](img/ejercicio2.gif)
+
+## Ejercicio 3
+Cuando el cubo se aproxima al cilindro, las esferas del grupo 1 cambian su color y saltan y las esferas del grupo 2 se orientan hacia un objeto ubicado en la escena con ese propósito
+
+![Pic](img/ejercicio3.gif)
